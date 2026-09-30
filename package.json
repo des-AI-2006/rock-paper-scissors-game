@@ -1,0 +1,17 @@
+{
+  "name": "rock-paper-scissors-game",
+  "version": "1.0.0",
+  "description": "Rock Paper Scissors Game",
+  "main": "RPS.js",
+  "scripts": {
+    "dev": "npx http-server -p 8080 -c-1",
+    "start": "npx http-server -p 8080 -c-1"
+  },
+  "keywords": [
+    "rock-paper-scissors",
+    "game",
+    "javascript"
+  ],
+  "author": "des-AI-2006",
+  "license": "MIT"
+}
