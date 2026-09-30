@@ -2,8 +2,7 @@
 
 A fun, responsive, and highly interactive **Rock, Paper, Scissors** game built with pure **HTML**, **CSS**, and **JavaScript** — playable right in your browser with zero setup.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20on%20Vercel-black?style=for-the-badge&logo=vercel)](https://rock-paper-scissors-gamma-lovat.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-des--AI--2006-181717?style=for-the-badge&logo=github)](https://github.com/des-AI-2006)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-2ea44f?style=for-the-badge)](https://rock-paper-scissors-gamma-lovat.vercel.app/)
 
 ---
 
