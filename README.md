@@ -1,12 +1,11 @@
 # 🪨📄✂️ Rock Paper Scissors
 
-A fun and interactive **Rock, Paper, Scissors** game built with pure **HTML**, **CSS**, and **JavaScript** — playable right in your browser with no dependencies or setup required.
+A fun, responsive, and highly interactive **Rock, Paper, Scissors** game built with pure **HTML**, **CSS**, and **JavaScript** — playable right in your browser with zero setup.
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20on%20Vercel-black?style=for-the-badge&logo=vercel)](https://rock-paper-scissors-gamma-lovat.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-des--AI--2006-181717?style=for-the-badge&logo=github)](https://github.com/des-AI-2006)
 
 ---
-
 
 ## ✨ Features
 
@@ -16,9 +15,9 @@ A fun and interactive **Rock, Paper, Scissors** game built with pure **HTML**, *
 - 🚀 **Tactile Micro-Animations** — Spring-based hover scales, custom image rotations, and active click state animations on selection circles.
 - 💥 **Confetti & Shake Feedback** — High-fidelity outcome animations including colorful confetti bursts on wins and horizontal shake animations on losses.
 - 📊 **Glowing Score Cards** — Individual equal-sized scorecards with a gold glow for the player and a coral glow for the computer.
-- 📱 **Fully Mobile Responsive** — Dynamically scales down to `320px` width using viewport width (`vw`) units, flexible margins, and fluid typography.
+- 📱 **Fully Mobile Responsive** — Dynamically scales down across all viewports using fluid typography, viewport units, and flexible margins.
 - 🔄 **Smooth Restart Button** — Fades in once a point is scored and lets you reset the game instantly.
-- 📖 **How to Play Popup** — Accessible collapsable widget in the top-left corner explaining the rules.
+- 📖 **How to Play Popup** — Accessible collapsible widget in the top-left corner explaining the rules.
 
 ---
 
@@ -26,9 +25,10 @@ A fun and interactive **Rock, Paper, Scissors** game built with pure **HTML**, *
 
 | Technology | Purpose |
 |---|---|
-| **HTML5** | Page structure and game elements |
-| **CSS3** | Styling, flexbox layout, animations, hover effects |
+| **HTML5** | Semantic layout structure and DOM elements |
+| **CSS3** | Premium radial gradients, glassmorphism, flexbox, animations |
 | **JavaScript (ES6)** | Game logic, DOM manipulation, event listeners |
+| **Canvas Confetti** | Celebration visual effects on wins |
 
 ---
 
@@ -39,6 +39,7 @@ RPS game/
 ├── index.html       # Main HTML page
 ├── style.css        # All styles and layout
 ├── RPS.js           # Game logic and interactivity
+├── package.json     # Project scripts and configuration
 ├── rock.png         # Rock choice image
 ├── paper.png        # Paper choice image
 ├── scissor.png      # Scissor choice image
@@ -57,7 +58,7 @@ RPS game/
 2. Open the project folder in your code editor or terminal.
 3. Run a local development server (optional):
    ```bash
-   npx http-server -p 8080 -c-1
+   npm run dev
    ```
 4. Open your browser and navigate to **[http://localhost:8080](http://localhost:8080)**.
 
